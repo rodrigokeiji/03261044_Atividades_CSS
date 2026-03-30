@@ -1,0 +1,55 @@
+/* Siga as orientações no arquivo README para concluir o exercício */
+
+/*Ex 4 - 1SIS - RA 03261044 - Rodrigo Keiji Suguiura.*/
+
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: green;
+    color: darkblue;
+}
+
+.cabecalho {
+    text-align: center;
+    background-color: #0EB424;
+
+}
+
+.cabecalho p:first-child {
+    font-weight: bold;
+    font-size: 32px;
+    color: black;
+
+}
+
+.cabecalho p:last-child {
+    color: aliceblue;
+
+}
+
+.conteudo {
+    background-color: whitesmoke;
+    color: darkblue;
+
+}
+
+.conteudo p {
+    font-size: 42px;
+    color: #E4005A;
+
+}
+
+.conteudo p.terceiro {
+    color: purple;
+    font-size: 15px;
+
+}
+
+/*Tive que pesquisar para tentar fazer essa parte do desafio mais 2*/
+@media (max-width: 480px) {
+    .container {
+        background-color: lightblue, #ADD8E6;
+
+    }
+
+}

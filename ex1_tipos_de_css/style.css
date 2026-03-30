@@ -1,0 +1,27 @@
+/*css externo*/
+	
+	.card{	
+		width: 500px; 
+		height: fit-content;
+		background-color: aliceblue;
+		border-radius: 25px;
+		border: solid 2px darkblue;
+		margin: 20px; 
+		padding: 25px;		
+	}
+	
+	.text{
+		font-family: monospace;
+	}
+
+	.title{
+		font-size: 30px;
+	}
+
+	.msg{
+		font-size: 15px;
+	}
+
+	.main-color{
+		color: darkblue
+	}

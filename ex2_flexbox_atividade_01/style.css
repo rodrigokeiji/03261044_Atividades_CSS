@@ -1,0 +1,77 @@
+/*Ex 1 - 1SIS - RA 03261044 - Rodrigo Keiji Suguiura.*/
+
+body {
+    margin: 0;
+    background-color: #f8f8f8;
+    color: #212427
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+.caixa {
+    border-radius: 5px;
+}
+
+.pai {
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    background-color: antiquewhite;
+    border: solid 2px #212427;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+}
+
+.vermelho {
+    align-self: flex-start;
+}
+
+.amarelo {
+    align-self: center;
+}
+
+.azul {
+    align-self: flex-end;
+} 
+
+.filho {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.cor1 {
+    background-color: #ED145B;
+}
+
+.cor3 {
+    background-color: #63B1BC;
+}
+
+.cor2 {
+    background-color: #EFB661;
+}
+
+.instrucoes {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.footer {
+    background-color: antiquewhite;
+    height: 130px;
+    margin-top: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+img {
+    width: 20%;
+}
